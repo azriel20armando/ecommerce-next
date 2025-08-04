@@ -27,16 +27,16 @@ export function SocialModal() {
               </a>
             </li>
 
-            <li className="flex justify-between items-center bg-amber-900 py-2 px-3 gap-3 border-2 border-amber-600 hover:border-blue-600 transition cursor-pointer rounded-xl">
+            <li className="flex cursor-pointer items-center justify-between gap-3 rounded-xl border-2 border-amber-600 bg-amber-900 px-3 py-2 transition hover:border-blue-600">
               <Facebook className="text-blue-600" />
-              <a href="https://facebook.com" target="_blank" className="text-zinc-100 pr-1">
+              <a href="https://facebook.com" target="_blank" className="pr-1 text-zinc-100" rel="noopener">
                 Facebook
               </a>
             </li>
 
-            <li className="flex justify-between items-center bg-amber-900 py-2 px-3 gap-3 border-2 border-amber-600 hover:border-sky-400 transition cursor-pointer rounded-xl">
+            <li className="flex cursor-pointer items-center justify-between gap-3 rounded-xl border-2 border-amber-600 bg-amber-900 px-3 py-2 transition hover:border-sky-400">
               <Twitter className="text-sky-400" />
-              <a href="https://twitter.com" target="_blank" className="text-zinc-100 pr-1">
+              <a href="https://twitter.com" target="_blank" className="pr-1 text-zinc-100" rel="noopener">
                 Twitter
               </a>
             </li>
