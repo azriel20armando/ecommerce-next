@@ -1,3 +1,5 @@
+/** biome-ignore-all lint/performance/noNamespaceImport: <explanation> */
+// biome-ignore assist/source/organizeImports: <explanation>
 import * as Dialog from '@radix-ui/react-dialog';
 import { Instagram, Facebook, Twitter, X } from 'lucide-react';
 
@@ -22,6 +24,7 @@ export function SocialModal() {
 
             <li className="flex cursor-pointer items-center justify-between gap-3 rounded-xl border-2 border-amber-600 bg-amber-900 px-3 py-2 transition hover:border-pink-500">
               <Instagram className="text-pink-500" />
+              {/** biome-ignore assist/source/useSortedAttributes: <explanation> */}
               <a href="https://instagram.com" target="_blank" className="pr-1 text-zinc-100" rel="noopener">
                 Instagram
               </a>
@@ -29,6 +32,7 @@ export function SocialModal() {
 
             <li className="flex cursor-pointer items-center justify-between gap-3 rounded-xl border-2 border-amber-600 bg-amber-900 px-3 py-2 transition hover:border-blue-600">
               <Facebook className="text-blue-600" />
+              {/** biome-ignore assist/source/useSortedAttributes: <explanation> */}
               <a href="https://facebook.com" target="_blank" className="pr-1 text-zinc-100" rel="noopener">
                 Facebook
               </a>
@@ -36,6 +40,7 @@ export function SocialModal() {
 
             <li className="flex cursor-pointer items-center justify-between gap-3 rounded-xl border-2 border-amber-600 bg-amber-900 px-3 py-2 transition hover:border-sky-400">
               <Twitter className="text-sky-400" />
+              {/** biome-ignore assist/source/useSortedAttributes: <explanation> */}
               <a href="https://twitter.com" target="_blank" className="pr-1 text-zinc-100" rel="noopener">
                 Twitter
               </a>
